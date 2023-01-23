@@ -14,4 +14,58 @@
   height: 55px;
   background-color: #f55a5a;
   color: white;
+  margin-bottom: 40px;
+}
+.card {
+  width: 100%;
+  margin: 0 auto;
+}
+.card--container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  padding: 0 40px;
+  gap: 20px;
+  width: 100%;
+}
+.card--wrapper {
+  max-width: 330px;
+}
+.card--image {
+  object-fit: cover;
+}
+.card--location-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.card--location {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin: 0 15px 0 5px;
+}
+.card--location-link {
+  font-size: 10px;
+  line-height: 12px;
+  color: #918e9b;
+}
+.card--title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card--date {
+  display: block;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card--text {
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
 }
